@@ -1,4 +1,4 @@
-# Unofficial Jubbio API Documentation
+# Jubbio Unofficial API Documentation
 
 This document provides language-agnostic documentation for the Jubbio platform API, including REST Endpoints, WebSocket Gateway Events and Voice API.
 
