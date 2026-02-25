@@ -1,0 +1,2734 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>@font-face {
+  font-family: octicons-link;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');
+}
+
+@media (prefers-color-scheme: dark) {
+  body,
+  [data-theme="dark"] {
+    /*dark*/
+    color-scheme: dark;
+    --color-prettylights-syntax-comment: #8b949e;
+    --color-prettylights-syntax-constant: #79c0ff;
+    --color-prettylights-syntax-entity: #d2a8ff;
+    --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+    --color-prettylights-syntax-entity-tag: #7ee787;
+    --color-prettylights-syntax-keyword: #ff7b72;
+    --color-prettylights-syntax-string: #a5d6ff;
+    --color-prettylights-syntax-variable: #ffa657;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+    --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+    --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+    --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+    --color-prettylights-syntax-carriage-return-bg: #b62324;
+    --color-prettylights-syntax-string-regexp: #7ee787;
+    --color-prettylights-syntax-markup-list: #f2cc60;
+    --color-prettylights-syntax-markup-heading: #1f6feb;
+    --color-prettylights-syntax-markup-italic: #c9d1d9;
+    --color-prettylights-syntax-markup-bold: #c9d1d9;
+    --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+    --color-prettylights-syntax-markup-deleted-bg: #67060c;
+    --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+    --color-prettylights-syntax-markup-inserted-bg: #033a16;
+    --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+    --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+    --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+    --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+    --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+    --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+    --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+    --color-fg-default: #e6edf3;
+    --color-fg-muted: #848d97;
+    --color-fg-subtle: #6e7681;
+    --color-canvas-default: #0d1117;
+    --color-canvas-subtle: #161b22;
+    --color-border-default: #30363d;
+    --color-border-muted: #21262d;
+    --color-neutral-muted: rgba(110,118,129,0.4);
+    --color-accent-fg: #2f81f7;
+    --color-accent-emphasis: #1f6feb;
+    --color-success-fg: #3fb950;
+    --color-success-emphasis: #238636;
+    --color-attention-fg: #d29922;
+    --color-attention-emphasis: #9e6a03;
+    --color-attention-subtle: rgba(187,128,9,0.15);
+    --color-danger-fg: #f85149;
+    --color-danger-emphasis: #da3633;
+    --color-done-fg: #a371f7;
+    --color-done-emphasis: #8957e5;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body,
+  [data-theme="light"] {
+    /*light*/
+    color-scheme: light;
+    --color-prettylights-syntax-comment: #57606a;
+    --color-prettylights-syntax-constant: #0550ae;
+    --color-prettylights-syntax-entity: #6639ba;
+    --color-prettylights-syntax-storage-modifier-import: #24292f;
+    --color-prettylights-syntax-entity-tag: #116329;
+    --color-prettylights-syntax-keyword: #cf222e;
+    --color-prettylights-syntax-string: #0a3069;
+    --color-prettylights-syntax-variable: #953800;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+    --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+    --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+    --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+    --color-prettylights-syntax-carriage-return-bg: #cf222e;
+    --color-prettylights-syntax-string-regexp: #116329;
+    --color-prettylights-syntax-markup-list: #3b2300;
+    --color-prettylights-syntax-markup-heading: #0550ae;
+    --color-prettylights-syntax-markup-italic: #24292f;
+    --color-prettylights-syntax-markup-bold: #24292f;
+    --color-prettylights-syntax-markup-deleted-text: #82071e;
+    --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+    --color-prettylights-syntax-markup-inserted-text: #116329;
+    --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+    --color-prettylights-syntax-markup-changed-text: #953800;
+    --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+    --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+    --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+    --color-prettylights-syntax-meta-diff-range: #8250df;
+    --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+    --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+    --color-fg-default: #1F2328;
+    --color-fg-muted: #656d76;
+    --color-fg-subtle: #6e7781;
+    --color-canvas-default: #ffffff;
+    --color-canvas-subtle: #f6f8fa;
+    --color-border-default: #d0d7de;
+    --color-border-muted: hsla(210,18%,87%,1);
+    --color-neutral-muted: rgba(175,184,193,0.2);
+    --color-accent-fg: #0969da;
+    --color-accent-emphasis: #0969da;
+    --color-success-fg: #1a7f37;
+    --color-success-emphasis: #1f883d;
+    --color-attention-fg: #9a6700;
+    --color-attention-emphasis: #9a6700;
+    --color-attention-subtle: #fff8c5;
+    --color-danger-fg: #d1242f;
+    --color-danger-emphasis: #cf222e;
+    --color-done-fg: #8250df;
+    --color-done-emphasis: #8250df;
+  }
+}
+
+body {
+    max-width: 980px;
+    margin: 16px auto;
+    background-color: var(--color-canvas-default);
+}
+
+.markdown-body .octicon-link:before {
+  color: var(--color-fg-default);
+  font: normal normal normal 16px/1 octicons-link;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  content: '\f05c';
+  vertical-align: middle;
+}
+
+.markdown-body {
+  padding: 45px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-default);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body .markdown-heading:hover .anchor {
+  opacity: 1;
+}
+
+.markdown-body .markdown-heading:hover .anchor .octicon-link::before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+}
+
+.markdown-body details,
+.markdown-body figcaption,
+.markdown-body figure {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body [hidden] {
+  display: none !important;
+}
+
+.markdown-body a {
+  background-color: transparent;
+  color: var(--color-accent-fg);
+  text-decoration: none;
+}
+
+.markdown-body abbr[title] {
+  border-bottom: none;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dfn {
+  font-style: italic;
+}
+
+.markdown-body h1 {
+  margin: .67em 0;
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 2em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body mark {
+  background-color: var(--color-attention-subtle);
+  color: var(--color-fg-default);
+}
+
+.markdown-body small {
+  font-size: 90%;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body sup {
+  top: -0.5em;
+}
+
+.markdown-body img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: var(--color-canvas-default);
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+.markdown-body figure {
+  margin: 1em 40px;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid var(--color-border-muted);
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: var(--color-border-default);
+  border: 0;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body [type=button],
+.markdown-body [type=reset],
+.markdown-body [type=submit] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+
+.markdown-body [type=checkbox],
+.markdown-body [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body [type=number]::-webkit-inner-spin-button,
+.markdown-body [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.markdown-body [type=search]::-webkit-search-cancel-button,
+.markdown-body [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54;
+}
+
+.markdown-body ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  appearance: button;
+  font: inherit;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body ::placeholder {
+  color: var(--color-fg-subtle);
+  opacity: 1;
+}
+
+.markdown-body hr::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body details:not([open])>*:not(summary) {
+  display: none !important;
+}
+
+.markdown-body a:focus,
+.markdown-body [role=button]:focus,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=checkbox]:focus {
+  outline: 2px solid var(--color-accent-fg);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:focus:not(:focus-visible),
+.markdown-body [role=button]:focus:not(:focus-visible),
+.markdown-body input[type=radio]:focus:not(:focus-visible),
+.markdown-body input[type=checkbox]:focus:not(:focus-visible) {
+  outline: solid 1px transparent;
+}
+
+.markdown-body a:focus-visible,
+.markdown-body [role=button]:focus-visible,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline: 2px solid var(--color-accent-fg);
+  outline-offset: -2px;
+  box-shadow: none;
+}
+
+.markdown-body a:not([class]):focus,
+.markdown-body a:not([class]):focus-visible,
+.markdown-body input[type=radio]:focus,
+.markdown-body input[type=radio]:focus-visible,
+.markdown-body input[type=checkbox]:focus,
+.markdown-body input[type=checkbox]:focus-visible {
+  outline-offset: 0;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  line-height: 10px;
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  background-color: var(--color-canvas-subtle);
+  border: solid 1px var(--color-neutral-muted);
+  border-bottom-color: var(--color-neutral-muted);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 var(--color-neutral-muted);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: var(--base-text-weight-semibold, 600);
+  line-height: 1.25;
+}
+
+.markdown-body h2 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  padding-bottom: .3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body h3 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: .85em;
+  color: var(--color-fg-muted);
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: var(--color-fg-muted);
+  border-left: .25em solid var(--color-border-default);
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body tt,
+.markdown-body code,
+.markdown-body samp {
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+  word-wrap: normal;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-body input::-webkit-outer-spin-button,
+.markdown-body input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body .mr-2 {
+  margin-right: var(--base-size-8, 8px) !important;
+}
+
+.markdown-body::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .absent {
+  color: var(--color-danger-fg);
+}
+
+.markdown-body .markdown-heading {
+  position:  relative;
+}
+
+.markdown-body .anchor {
+  position: absolute;
+  top: 30%;
+  left: -28px;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  margin: auto;
+  line-height: 1;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body details {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 tt,
+.markdown-body h1 code,
+.markdown-body h2 tt,
+.markdown-body h2 code,
+.markdown-body h3 tt,
+.markdown-body h3 code,
+.markdown-body h4 tt,
+.markdown-body h4 code,
+.markdown-body h5 tt,
+.markdown-body h5 code,
+.markdown-body h6 tt,
+.markdown-body h6 code {
+  padding: 0 .2em;
+  font-size: inherit;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2,
+.markdown-body summary h3,
+.markdown-body summary h4,
+.markdown-body summary h5,
+.markdown-body summary h6 {
+  display: inline-block;
+}
+
+.markdown-body summary h1 .anchor,
+.markdown-body summary h2 .anchor,
+.markdown-body summary h3 .anchor,
+.markdown-body summary h4 .anchor,
+.markdown-body summary h5 .anchor,
+.markdown-body summary h6 .anchor {
+  margin-left: -40px;
+}
+
+.markdown-body summary h1,
+.markdown-body summary h2 {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.markdown-body ul.no-list,
+.markdown-body ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.markdown-body ol[type="a s"] {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body ol[type="A s"] {
+  list-style-type: upper-alpha;
+}
+
+.markdown-body ol[type="i s"] {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol[type="I s"] {
+  list-style-type: upper-roman;
+}
+
+.markdown-body ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.markdown-body div>ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table th {
+  font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid var(--color-border-default);
+}
+
+.markdown-body table td>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table tr {
+  background-color: var(--color-canvas-default);
+  border-top: 1px solid var(--color-border-muted);
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: var(--color-canvas-subtle);
+}
+
+.markdown-body table img {
+  background-color: transparent;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+.markdown-body span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.markdown-body span.frame>span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border-default);
+}
+
+.markdown-body span.frame span img {
+  display: block;
+  float: left;
+}
+
+.markdown-body span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: var(--color-fg-default);
+}
+
+.markdown-body span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-center>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.markdown-body span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.markdown-body span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-right>span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.markdown-body span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-left span {
+  margin: 13px 0 0;
+}
+
+.markdown-body span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-right>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body code,
+.markdown-body tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  white-space: break-spaces;
+  background-color: var(--color-neutral-muted);
+  border-radius: 6px;
+}
+
+.markdown-body code br,
+.markdown-body tt br {
+  display: none;
+}
+
+.markdown-body del code {
+  text-decoration: inherit;
+}
+
+.markdown-body samp {
+  font-size: 85%;
+}
+
+.markdown-body pre code {
+  font-size: 100%;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  color: var(--color-fg-default);
+  background-color: var(--color-canvas-subtle);
+  border-radius: 6px;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body .csv-data td,
+.markdown-body .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.markdown-body .csv-data .blob-num {
+  padding: 10px 8px 9px;
+  text-align: right;
+  background: var(--color-canvas-default);
+  border: 0;
+}
+
+.markdown-body .csv-data tr {
+  border-top: 0;
+}
+
+.markdown-body .csv-data th {
+  font-weight: var(--base-text-weight-semibold, 600);
+  background: var(--color-canvas-subtle);
+  border-top: 0;
+}
+
+.markdown-body [data-footnote-ref]::before {
+  content: "[";
+}
+
+.markdown-body [data-footnote-ref]::after {
+  content: "]";
+}
+
+.markdown-body .footnotes {
+  font-size: 12px;
+  color: var(--color-fg-muted);
+  border-top: 1px solid var(--color-border-default);
+}
+
+.markdown-body .footnotes ol {
+  padding-left: 16px;
+}
+
+.markdown-body .footnotes ol ul {
+  display: inline-block;
+  padding-left: 16px;
+  margin-top: 16px;
+}
+
+.markdown-body .footnotes li {
+  position: relative;
+}
+
+.markdown-body .footnotes li:target::before {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -24px;
+  pointer-events: none;
+  content: "";
+  border: 2px solid var(--color-accent-emphasis);
+  border-radius: 6px;
+}
+
+.markdown-body .footnotes li:target {
+  color: var(--color-fg-default);
+}
+
+.markdown-body .footnotes .data-footnote-backref g-emoji {
+  font-family: monospace;
+}
+
+.markdown-body .pl-c {
+  color: var(--color-prettylights-syntax-comment);
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: var(--color-prettylights-syntax-constant);
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: var(--color-prettylights-syntax-entity);
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+  color: var(--color-prettylights-syntax-storage-modifier-import);
+}
+
+.markdown-body .pl-ent {
+  color: var(--color-prettylights-syntax-entity-tag);
+}
+
+.markdown-body .pl-k {
+  color: var(--color-prettylights-syntax-keyword);
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+  color: var(--color-prettylights-syntax-string);
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+  color: var(--color-prettylights-syntax-variable);
+}
+
+.markdown-body .pl-bu {
+  color: var(--color-prettylights-syntax-brackethighlighter-unmatched);
+}
+
+.markdown-body .pl-ii {
+  color: var(--color-prettylights-syntax-invalid-illegal-text);
+  background-color: var(--color-prettylights-syntax-invalid-illegal-bg);
+}
+
+.markdown-body .pl-c2 {
+  color: var(--color-prettylights-syntax-carriage-return-text);
+  background-color: var(--color-prettylights-syntax-carriage-return-bg);
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-string-regexp);
+}
+
+.markdown-body .pl-ml {
+  color: var(--color-prettylights-syntax-markup-list);
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-heading);
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: var(--color-prettylights-syntax-markup-italic);
+}
+
+.markdown-body .pl-mb {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-markup-bold);
+}
+
+.markdown-body .pl-md {
+  color: var(--color-prettylights-syntax-markup-deleted-text);
+  background-color: var(--color-prettylights-syntax-markup-deleted-bg);
+}
+
+.markdown-body .pl-mi1 {
+  color: var(--color-prettylights-syntax-markup-inserted-text);
+  background-color: var(--color-prettylights-syntax-markup-inserted-bg);
+}
+
+.markdown-body .pl-mc {
+  color: var(--color-prettylights-syntax-markup-changed-text);
+  background-color: var(--color-prettylights-syntax-markup-changed-bg);
+}
+
+.markdown-body .pl-mi2 {
+  color: var(--color-prettylights-syntax-markup-ignored-text);
+  background-color: var(--color-prettylights-syntax-markup-ignored-bg);
+}
+
+.markdown-body .pl-mdr {
+  font-weight: bold;
+  color: var(--color-prettylights-syntax-meta-diff-range);
+}
+
+.markdown-body .pl-ba {
+  color: var(--color-prettylights-syntax-brackethighlighter-angle);
+}
+
+.markdown-body .pl-sg {
+  color: var(--color-prettylights-syntax-sublimelinter-gutter-mark);
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: var(--color-prettylights-syntax-constant-other-reference-link);
+}
+
+.markdown-body g-emoji {
+  display: inline-block;
+  min-width: 1ch;
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1em;
+  font-style: normal !important;
+  font-weight: var(--base-text-weight-normal, 400);
+  line-height: 1;
+  vertical-align: -0.075em;
+}
+
+.markdown-body g-emoji img {
+  width: 1em;
+  height: 1em;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item label {
+  font-weight: var(--base-text-weight-normal, 400);
+}
+
+.markdown-body .task-list-item.enabled label {
+  cursor: pointer;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 4px;
+}
+
+.markdown-body .task-list-item .handle {
+  display: none;
+}
+
+.markdown-body .task-list-item-checkbox {
+  margin: 0 .2em .25em -1.4em;
+  vertical-align: middle;
+}
+
+.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox {
+  margin: 0 -1.6em .25em .2em;
+}
+
+.markdown-body .contains-task-list {
+  position: relative;
+}
+
+.markdown-body .contains-task-list:hover .task-list-item-convert-container,
+.markdown-body .contains-task-list:focus-within .task-list-item-convert-container {
+  display: block;
+  width: auto;
+  height: 24px;
+  overflow: visible;
+  clip: auto;
+}
+
+.markdown-body ::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+
+.markdown-body .markdown-alert {
+  padding: var(--base-size-8, 8px) var(--base-size-16, 16px);
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid var(--color-border-default);
+}
+
+.markdown-body .markdown-alert>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body .markdown-alert>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body .markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: var(--base-text-weight-medium, 500);
+  align-items: center;
+  line-height: 1;
+}
+
+.markdown-body .markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-accent-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-accent-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-done-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-done-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-attention-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-attention-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-success-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-success-fg);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-danger-emphasis);
+}
+
+.markdown-body .markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-danger-fg);
+}
+</style><title>JubbioAPIDocs</title></head><body><article class="markdown-body"><div class="markdown-heading"><h1 class="heading-element">Unofficial Jubbio API Documentation</h1><a id="user-content-unofficial-jubbio-api-documentation" class="anchor" aria-label="Permalink: Unofficial Jubbio API Documentation" href="#unofficial-jubbio-api-documentation"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>This document provides language-agnostic documentation for the Jubbio platform API, including REST Endpoints, WebSocket Gateway Events and Voice API.</p>
+<div class="markdown-heading"><h2 class="heading-element">Contributing</h2><a id="user-content-contributing" class="anchor" aria-label="Permalink: Contributing" href="#contributing"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>We strive to keep this documentation accurate and up-to-date. If you find any errors, missing information, or have suggestions for improvements, feel free to contribute! You can:</p>
+<ul>
+<li>
+<strong>Report Issues</strong>: Open an issue on our GitHub repository to let us know about any problems you've encountered.</li>
+<li>
+<strong>Submit Updates</strong>: Help improve the documentation by submitting a pull request with your changes or additions.</li>
+</ul>
+<p>Your contributions are greatly appreciated and help make this resource better for everyone.</p>
+<div class="markdown-heading"><h2 class="heading-element">Authentication</h2><a id="user-content-authentication" class="anchor" aria-label="Permalink: Authentication" href="#authentication"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>All API requests require authentication using a bot token. Include the token in the <code>Authorization</code> header:</p>
+<div class="highlight highlight-source-js"><pre>Authorization: <span class="pl-v">Bot</span> <span class="pl-c1">YOUR_BOT_TOKEN</span></pre></div>
+<div class="markdown-heading"><h2 class="heading-element">Base URL</h2><a id="user-content-base-url" class="anchor" aria-label="Permalink: Base URL" href="#base-url"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>The default API base URL is;</p>
+<pre><code>https://gateway.jubbio.com/api/v1
+</code></pre>
+<p>The WebSocket gateway URL is;</p>
+<pre><code>wss://gateway.jubbio.com
+</code></pre>
+<div class="markdown-heading"><h2 class="heading-element">REST API</h2><a id="user-content-rest-api" class="anchor" aria-label="Permalink: REST API" href="#rest-api"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>The REST API allows you to interact with guilds, channels, messages, users, and other resources.</p>
+<div class="markdown-heading"><h3 class="heading-element">Messages</h3><a id="user-content-messages" class="anchor" aria-label="Permalink: Messages" href="#messages"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">Create Message</h4><a id="user-content-create-message" class="anchor" aria-label="Permalink: Create Message" href="#create-message"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li>
+<code>guild_id</code> (string): The guild ID</li>
+<li>
+<code>channel_id</code> (string): The channel ID</li>
+</ul>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Hello World!<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"embeds"</span>: [], <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"components"</span>: [], <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"mentions"</span>: { <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"users"</span>: [{<span class="pl-ent">"id"</span>: <span class="pl-c1">123</span>, <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>user<span class="pl-pds">"</span></span>}],
+    <span class="pl-ent">"roles"</span>: [{<span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>456<span class="pl-pds">"</span></span>, <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>role<span class="pl-pds">"</span></span>}],
+    <span class="pl-ent">"everyone"</span>: <span class="pl-c1">false</span>
+  },
+  <span class="pl-ent">"files"</span>: [], <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"message_reference"</span>: { <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"message_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>789<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"author"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_username<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Bot Display Name<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"avatar_url"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/avatar.png<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"bot"</span>: <span class="pl-c1">true</span>
+  },
+  <span class="pl-ent">"user_id"</span>: <span class="pl-c1">123</span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Hello World!<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"edited_timestamp"</span>: <span class="pl-c1">null</span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"attachments"</span>: [], <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"embeds"</span>: [] <span class="pl-ii">// optional</span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Upload Attachment</h4><a id="user-content-upload-attachment" class="anchor" aria-label="Permalink: Upload Attachment" href="#upload-attachment"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/attachments
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Content-Type:</strong> multipart/form-data</p>
+<p><strong>Form Data:</strong></p>
+<ul>
+<li>
+<code>file</code> (file): The file to upload</li>
+</ul>
+<p><strong>Response (201 Created):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>attachment_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"url"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/attachment.png<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"filename"</span>: <span class="pl-s"><span class="pl-pds">"</span>attachment.png<span class="pl-pds">"</span></span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Create Message with File</h4><a id="user-content-create-message-with-file" class="anchor" aria-label="Permalink: Create Message with File" href="#create-message-with-file"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li>
+<code>guild_id</code> (string): The guild ID</li>
+<li>
+<code>channel_id</code> (string): The channel ID</li>
+</ul>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Message with file<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"file"</span>: {
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>file.png<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"data"</span>: <span class="pl-s"><span class="pl-pds">"</span>base64_or_buffer<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"contentType"</span>: <span class="pl-s"><span class="pl-pds">"</span>image/png<span class="pl-pds">"</span></span> <span class="pl-ii">// optional</span>
+  }
+}</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"author"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_username<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"bot"</span>: <span class="pl-c1">true</span>
+  },
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Message with file<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"attachments"</span>: [
+    {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>attachment_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"filename"</span>: <span class="pl-s"><span class="pl-pds">"</span>file.png<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"size"</span>: <span class="pl-c1">12345</span>,
+      <span class="pl-ent">"url"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/file.png<span class="pl-pds">"</span></span>
+    }
+  ]
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Create Ephemeral Message</h4><a id="user-content-create-ephemeral-message" class="anchor" aria-label="Permalink: Create Ephemeral Message" href="#create-ephemeral-message"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li>
+<code>guild_id</code> (string): The guild ID</li>
+<li>
+<code>channel_id</code> (string): The channel ID</li>
+</ul>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>This message is only visible to you!<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"embeds"</span>: [] <span class="pl-ii">// optional</span>
+}</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"ephemeral"</span>: <span class="pl-c1">true</span>,
+  <span class="pl-ent">"flags"</span>: <span class="pl-c1">64</span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Create DM Message</h4><a id="user-content-create-dm-message" class="anchor" aria-label="Permalink: Create DM Message" href="#create-dm-message"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/channels/{channel_id}/messages
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li>
+<code>channel_id</code> (string): The DM channel ID</li>
+</ul>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Hello in DM!<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"embeds"</span>: [] <span class="pl-ii">// optional</span>
+}</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"author"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_username<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"bot"</span>: <span class="pl-c1">true</span>
+  },
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Hello in DM!<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Edit Message</h4><a id="user-content-edit-message" class="anchor" aria-label="Permalink: Edit Message" href="#edit-message"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages/{message_id}
+</code></pre>
+<p><strong>Method:</strong> PATCH</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li>
+<code>guild_id</code> (string)</li>
+<li>
+<code>channel_id</code> (string)</li>
+<li>
+<code>message_id</code> (string)</li>
+</ul>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated message<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"embeds"</span>: [], <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"components"</span>: [] <span class="pl-ii">// optional</span>
+}</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"author"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_username<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Bot Display Name<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"avatar_url"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/avatar.png<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"bot"</span>: <span class="pl-c1">true</span>
+  },
+  <span class="pl-ent">"user_id"</span>: <span class="pl-c1">123</span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated message<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"edited_timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:01:00.000Z<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"attachments"</span>: [], <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"embeds"</span>: [] <span class="pl-ii">// optional</span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Delete Message</h4><a id="user-content-delete-message" class="anchor" aria-label="Permalink: Delete Message" href="#delete-message"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages/{message_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li>
+<code>guild_id</code> (string)</li>
+<li>
+<code>channel_id</code> (string)</li>
+<li>
+<code>message_id</code> (string)</li>
+</ul>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Get Messages</h4><a id="user-content-get-messages" class="anchor" aria-label="Permalink: Get Messages" href="#get-messages"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Query Parameters:</strong></p>
+<ul>
+<li>
+<code>limit</code> (number, optional): Number of messages to retrieve (default 50, max 100)</li>
+<li>
+<code>before</code> (string, optional): Message ID to get messages before</li>
+<li>
+<code>after</code> (string, optional): Message ID to get messages after</li>
+</ul>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id_1<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"author"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Display Name<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"avatar_url"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/avatar.png<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"bot"</span>: <span class="pl-c1">false</span>
+    },
+    <span class="pl-ent">"user_id"</span>: <span class="pl-c1">123</span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Message content<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"edited_timestamp"</span>: <span class="pl-c1">null</span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"attachments"</span>: [], <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"embeds"</span>: [] <span class="pl-ii">// optional</span>
+  }
+]</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Add Reaction</h4><a id="user-content-add-reaction" class="anchor" aria-label="Permalink: Add Reaction" href="#add-reaction"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages/{message_id}/reactions/{emoji}
+</code></pre>
+<p><strong>Method:</strong> PUT</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li>
+<code>guild_id</code> (string)</li>
+<li>
+<code>channel_id</code> (string)</li>
+<li>
+<code>message_id</code> (string)</li>
+<li>
+<code>emoji</code> (string): Emoji to react with</li>
+</ul>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Remove Reaction</h4><a id="user-content-remove-reaction" class="anchor" aria-label="Permalink: Remove Reaction" href="#remove-reaction"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Get Pinned Messages</h4><a id="user-content-get-pinned-messages" class="anchor" aria-label="Permalink: Get Pinned Messages" href="#get-pinned-messages"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/pins
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"author"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Display Name<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Pinned message<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"attachments"</span>: [],
+    <span class="pl-ent">"embeds"</span>: []
+  }
+]</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Delete Message</h4><a id="user-content-delete-message-1" class="anchor" aria-label="Permalink: Delete Message" href="#delete-message-1"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages/{message_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Add Reaction</h4><a id="user-content-add-reaction-1" class="anchor" aria-label="Permalink: Add Reaction" href="#add-reaction-1"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages/{message_id}/reactions/{emoji}/@me
+</code></pre>
+<p><strong>Method:</strong> PUT</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Pin Message</h4><a id="user-content-pin-message" class="anchor" aria-label="Permalink: Pin Message" href="#pin-message"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/pins/{message_id}
+</code></pre>
+<p><strong>Method:</strong> PUT</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Unpin Message</h4><a id="user-content-unpin-message" class="anchor" aria-label="Permalink: Unpin Message" href="#unpin-message"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/pins/{message_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Bulk Delete Messages</h4><a id="user-content-bulk-delete-messages" class="anchor" aria-label="Permalink: Bulk Delete Messages" href="#bulk-delete-messages"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/messages/bulk-delete
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"messages"</span>: [<span class="pl-s"><span class="pl-pds">"</span>message_id_1<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>message_id_2<span class="pl-pds">"</span></span>]
+}</pre></div>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h3 class="heading-element">Channels</h3><a id="user-content-channels" class="anchor" aria-label="Permalink: Channels" href="#channels"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Guild Channels</h4><a id="user-content-get-guild-channels" class="anchor" aria-label="Permalink: Get Guild Channels" href="#get-guild-channels"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">0</span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>general<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"topic"</span>: <span class="pl-s"><span class="pl-pds">"</span>General discussion<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"position"</span>: <span class="pl-c1">0</span>,
+    <span class="pl-ent">"parent_id"</span>: <span class="pl-c1">null</span>
+  }
+]</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Create Channel</h4><a id="user-content-create-channel" class="anchor" aria-label="Permalink: Create Channel" href="#create-channel"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>new-channel<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"type"</span>: <span class="pl-c1">0</span>,
+  <span class="pl-ent">"parent_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>category_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"permission_overwrites"</span>: [] <span class="pl-ii">// optional</span>
+}</pre></div>
+<p><strong>Response (201 Created):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>new_channel_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"type"</span>: <span class="pl-c1">0</span>,
+  <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>new-channel<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"topic"</span>: <span class="pl-c1">null</span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"position"</span>: <span class="pl-c1">1</span>,
+  <span class="pl-ent">"parent_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>category_id<span class="pl-pds">"</span></span> <span class="pl-ii">// optional</span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Delete Channel</h4><a id="user-content-delete-channel" class="anchor" aria-label="Permalink: Delete Channel" href="#delete-channel"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Delete Category</h4><a id="user-content-delete-category" class="anchor" aria-label="Permalink: Delete Category" href="#delete-category"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{category_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Edit Channel Permissions</h4><a id="user-content-edit-channel-permissions" class="anchor" aria-label="Permalink: Edit Channel Permissions" href="#edit-channel-permissions"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/channels/{channel_id}/permissions/{overwrite_id}
+</code></pre>
+<p><strong>Method:</strong> PUT</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"allow"</span>: <span class="pl-s"><span class="pl-pds">"</span>permissions_bit<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"deny"</span>: <span class="pl-s"><span class="pl-pds">"</span>permissions_bit<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"type"</span>: <span class="pl-c1">0</span>
+}</pre></div>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Delete Channel Permission</h4><a id="user-content-delete-channel-permission" class="anchor" aria-label="Permalink: Delete Channel Permission" href="#delete-channel-permission"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/channels/{channel_id}/permissions/{overwrite_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h3 class="heading-element">Guild Members</h3><a id="user-content-guild-members" class="anchor" aria-label="Permalink: Guild Members" href="#guild-members"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Member</h4><a id="user-content-get-member" class="anchor" aria-label="Permalink: Get Member" href="#get-member"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/members/{user_id}
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"user"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Display Name<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"avatar_url"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/avatar.png<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"bot"</span>: <span class="pl-c1">false</span>
+  },
+  <span class="pl-ent">"nick"</span>: <span class="pl-s"><span class="pl-pds">"</span>Nickname<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"avatar"</span>: <span class="pl-c1">null</span>,
+  <span class="pl-ent">"roles"</span>: [<span class="pl-s"><span class="pl-pds">"</span>role_id_1<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>role_id_2<span class="pl-pds">"</span></span>],
+  <span class="pl-ent">"joined_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"deaf"</span>: <span class="pl-c1">false</span>,
+  <span class="pl-ent">"mute"</span>: <span class="pl-c1">false</span>,
+  <span class="pl-ent">"permissions"</span>: <span class="pl-s"><span class="pl-pds">"</span>permissions_bit<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"voice"</span>: {
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-c1">null</span>,
+    <span class="pl-ent">"self_mute"</span>: <span class="pl-c1">false</span>,
+    <span class="pl-ent">"self_deaf"</span>: <span class="pl-c1">false</span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Timeout Member</h4><a id="user-content-timeout-member" class="anchor" aria-label="Permalink: Timeout Member" href="#timeout-member"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/members/{user_id}
+</code></pre>
+<p><strong>Method:</strong> PATCH</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"communication_disabled_until"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-02T00:00:00.000Z<span class="pl-pds">"</span></span>
+}</pre></div>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Kick Member</h4><a id="user-content-kick-member" class="anchor" aria-label="Permalink: Kick Member" href="#kick-member"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/members/{user_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Ban Member</h4><a id="user-content-ban-member" class="anchor" aria-label="Permalink: Ban Member" href="#ban-member"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/bans/{user_id}
+</code></pre>
+<p><strong>Method:</strong> PUT</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"delete_message_seconds"</span>: <span class="pl-c1">604800</span>,
+  <span class="pl-ent">"reason"</span>: <span class="pl-s"><span class="pl-pds">"</span>Violation<span class="pl-pds">"</span></span>
+}</pre></div>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Unban Member</h4><a id="user-content-unban-member" class="anchor" aria-label="Permalink: Unban Member" href="#unban-member"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/bans/{user_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Edit Member</h4><a id="user-content-edit-member" class="anchor" aria-label="Permalink: Edit Member" href="#edit-member"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/members/{user_id}
+</code></pre>
+<p><strong>Method:</strong> PATCH</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"nick"</span>: <span class="pl-s"><span class="pl-pds">"</span>New Nickname<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"roles"</span>: [<span class="pl-s"><span class="pl-pds">"</span>role_id<span class="pl-pds">"</span></span>],
+  <span class="pl-ent">"mute"</span>: <span class="pl-c1">false</span>,
+  <span class="pl-ent">"deaf"</span>: <span class="pl-c1">false</span>
+}</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"user"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>
+  },
+  <span class="pl-ent">"nick"</span>: <span class="pl-s"><span class="pl-pds">"</span>New Nickname<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"roles"</span>: [<span class="pl-s"><span class="pl-pds">"</span>role_id<span class="pl-pds">"</span></span>],
+  <span class="pl-ent">"joined_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"deaf"</span>: <span class="pl-c1">false</span>,
+  <span class="pl-ent">"mute"</span>: <span class="pl-c1">false</span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Add/Remove Role</h4><a id="user-content-addremove-role" class="anchor" aria-label="Permalink: Add/Remove Role" href="#addremove-role"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/members/{user_id}/roles/{role_id}
+</code></pre>
+<p><strong>Method:</strong> PUT (add)</p>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/members/{user_id}/roles/{role_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE (remove)</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Bulk Assign Roles</h4><a id="user-content-bulk-assign-roles" class="anchor" aria-label="Permalink: Bulk Assign Roles" href="#bulk-assign-roles"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/members/bulk-assign
+</code></pre>
+<p><strong>Method:</strong> PATCH</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"user_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"role_ids"</span>: [<span class="pl-s"><span class="pl-pds">"</span>role_id_1<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>role_id_2<span class="pl-pds">"</span></span>]
+  }
+]</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"success"</span>: <span class="pl-c1">true</span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Bulk Remove Roles</h4><a id="user-content-bulk-remove-roles" class="anchor" aria-label="Permalink: Bulk Remove Roles" href="#bulk-remove-roles"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/members/bulk-remove
+</code></pre>
+<p><strong>Method:</strong> PATCH</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"user_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"role_ids"</span>: [<span class="pl-s"><span class="pl-pds">"</span>role_id_1<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>role_id_2<span class="pl-pds">"</span></span>]
+  }
+]</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"success"</span>: <span class="pl-c1">true</span>
+}</pre></div>
+<div class="markdown-heading"><h3 class="heading-element">Roles</h3><a id="user-content-roles" class="anchor" aria-label="Permalink: Roles" href="#roles"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Roles</h4><a id="user-content-get-roles" class="anchor" aria-label="Permalink: Get Roles" href="#get-roles"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/roles
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>role_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Role Name<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"color"</span>: <span class="pl-c1">16711680</span>,
+    <span class="pl-ent">"position"</span>: <span class="pl-c1">1</span>,
+    <span class="pl-ent">"permissions"</span>: <span class="pl-s"><span class="pl-pds">"</span>permissions_bit<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"mentionable"</span>: <span class="pl-c1">true</span>
+  }
+]</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Create Role</h4><a id="user-content-create-role" class="anchor" aria-label="Permalink: Create Role" href="#create-role"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/roles
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>New Role<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"color"</span>: <span class="pl-c1">16711680</span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"permissions"</span>: <span class="pl-s"><span class="pl-pds">"</span>8<span class="pl-pds">"</span></span> <span class="pl-ii">// optional</span>
+}</pre></div>
+<p><strong>Response (201 Created):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>new_role_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>New Role<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"color"</span>: <span class="pl-c1">16711680</span>,
+  <span class="pl-ent">"position"</span>: <span class="pl-c1">2</span>,
+  <span class="pl-ent">"permissions"</span>: <span class="pl-s"><span class="pl-pds">"</span>8<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"mentionable"</span>: <span class="pl-c1">false</span> <span class="pl-ii">// optional</span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Edit Role</h4><a id="user-content-edit-role" class="anchor" aria-label="Permalink: Edit Role" href="#edit-role"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/roles/{role_id}
+</code></pre>
+<p><strong>Method:</strong> PATCH</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated Role<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"color"</span>: <span class="pl-c1">65280</span>
+}</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>role_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated Role<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"color"</span>: <span class="pl-c1">65280</span>,
+  <span class="pl-ent">"position"</span>: <span class="pl-c1">2</span>,
+  <span class="pl-ent">"permissions"</span>: <span class="pl-s"><span class="pl-pds">"</span>8<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"mentionable"</span>: <span class="pl-c1">false</span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Delete Role</h4><a id="user-content-delete-role" class="anchor" aria-label="Permalink: Delete Role" href="#delete-role"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/roles/{role_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h3 class="heading-element">Guilds</h3><a id="user-content-guilds" class="anchor" aria-label="Permalink: Guilds" href="#guilds"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Guild</h4><a id="user-content-get-guild" class="anchor" aria-label="Permalink: Get Guild" href="#get-guild"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Guild Name<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"icon"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/icon.png<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"owner_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>owner_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"unavailable"</span>: <span class="pl-c1">false</span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Bans</h4><a id="user-content-get-bans" class="anchor" aria-label="Permalink: Get Bans" href="#get-bans"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/bans
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"reason"</span>: <span class="pl-s"><span class="pl-pds">"</span>Violation<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"user"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>banned_user_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>banned_user<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Banned User<span class="pl-pds">"</span></span>
+    }
+  }
+]</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Ban</h4><a id="user-content-get-ban" class="anchor" aria-label="Permalink: Get Ban" href="#get-ban"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/bans/{user_id}
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li>
+<code>guild_id</code> (string): The guild ID</li>
+<li>
+<code>user_id</code> (string): The user ID</li>
+</ul>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"reason"</span>: <span class="pl-s"><span class="pl-pds">"</span>Violation<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+  <span class="pl-ent">"user"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Display Name<span class="pl-pds">"</span></span> <span class="pl-ii">// optional</span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Emojis</h4><a id="user-content-get-emojis" class="anchor" aria-label="Permalink: Get Emojis" href="#get-emojis"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/emojis
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>emoji_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>emoji_name<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"animated"</span>: <span class="pl-c1">false</span>
+  }
+]</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Invites</h4><a id="user-content-get-invites" class="anchor" aria-label="Permalink: Get Invites" href="#get-invites"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/invites
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"code"</span>: <span class="pl-s"><span class="pl-pds">"</span>invite_code<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"guild"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Guild Name<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-ent">"channel"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_name<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"type"</span>: <span class="pl-c1">0</span>
+    },
+    <span class="pl-ent">"inviter"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>inviter_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>inviter_username<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-ent">"target_user"</span>: <span class="pl-c1">null</span>,
+    <span class="pl-ent">"target_user_type"</span>: <span class="pl-c1">null</span>,
+    <span class="pl-ent">"approximate_presence_count"</span>: <span class="pl-c1">10</span>,
+    <span class="pl-ent">"approximate_member_count"</span>: <span class="pl-c1">100</span>,
+    <span class="pl-ent">"expires_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-02T00:00:00.000Z<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"uses"</span>: <span class="pl-c1">5</span>,
+    <span class="pl-ent">"max_uses"</span>: <span class="pl-c1">10</span>,
+    <span class="pl-ent">"max_age"</span>: <span class="pl-c1">86400</span>,
+    <span class="pl-ent">"temporary"</span>: <span class="pl-c1">false</span>,
+    <span class="pl-ent">"created_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+  }
+]</pre></div>
+<div class="markdown-heading"><h3 class="heading-element">Invites</h3><a id="user-content-invites" class="anchor" aria-label="Permalink: Invites" href="#invites"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">Create Invite</h4><a id="user-content-create-invite" class="anchor" aria-label="Permalink: Create Invite" href="#create-invite"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/invites
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"max_age"</span>: <span class="pl-c1">86400</span>,
+  <span class="pl-ent">"max_uses"</span>: <span class="pl-c1">10</span>
+}</pre></div>
+<p><strong>Response (201 Created):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"code"</span>: <span class="pl-s"><span class="pl-pds">"</span>new_invite_code<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"guild"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Guild Name<span class="pl-pds">"</span></span>
+  },
+  <span class="pl-ent">"channel"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_name<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">0</span>
+  },
+  <span class="pl-ent">"inviter"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_username<span class="pl-pds">"</span></span>
+  },
+  <span class="pl-ent">"target_user"</span>: <span class="pl-c1">null</span>,
+  <span class="pl-ent">"target_user_type"</span>: <span class="pl-c1">null</span>,
+  <span class="pl-ent">"approximate_presence_count"</span>: <span class="pl-c1">10</span>,
+  <span class="pl-ent">"approximate_member_count"</span>: <span class="pl-c1">100</span>,
+  <span class="pl-ent">"expires_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-02T00:00:00.000Z<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"uses"</span>: <span class="pl-c1">0</span>,
+  <span class="pl-ent">"max_uses"</span>: <span class="pl-c1">10</span>,
+  <span class="pl-ent">"max_age"</span>: <span class="pl-c1">86400</span>,
+  <span class="pl-ent">"temporary"</span>: <span class="pl-c1">false</span>,
+  <span class="pl-ent">"created_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Invite</h4><a id="user-content-get-invite" class="anchor" aria-label="Permalink: Get Invite" href="#get-invite"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/invites/{invite_code}
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"code"</span>: <span class="pl-s"><span class="pl-pds">"</span>invite_code<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"guild"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Guild Name<span class="pl-pds">"</span></span>
+  },
+  <span class="pl-ent">"channel"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_name<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">0</span>
+  },
+  <span class="pl-ent">"inviter"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>inviter_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>inviter_username<span class="pl-pds">"</span></span>
+  },
+  <span class="pl-ent">"target_user"</span>: <span class="pl-c1">null</span>,
+  <span class="pl-ent">"target_user_type"</span>: <span class="pl-c1">null</span>,
+  <span class="pl-ent">"approximate_presence_count"</span>: <span class="pl-c1">10</span>,
+  <span class="pl-ent">"approximate_member_count"</span>: <span class="pl-c1">100</span>,
+  <span class="pl-ent">"expires_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-02T00:00:00.000Z<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"uses"</span>: <span class="pl-c1">5</span>,
+  <span class="pl-ent">"max_uses"</span>: <span class="pl-c1">10</span>,
+  <span class="pl-ent">"max_age"</span>: <span class="pl-c1">86400</span>,
+  <span class="pl-ent">"temporary"</span>: <span class="pl-c1">false</span>,
+  <span class="pl-ent">"created_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Delete Invite</h4><a id="user-content-delete-invite" class="anchor" aria-label="Permalink: Delete Invite" href="#delete-invite"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/invites/{invite_code}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h3 class="heading-element">Users</h3><a id="user-content-users" class="anchor" aria-label="Permalink: Users" href="#users"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">Get User</h4><a id="user-content-get-user" class="anchor" aria-label="Permalink: Get User" href="#get-user"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/users/{user_id}
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Display Name<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"avatar_url"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/avatar.png<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"bot"</span>: <span class="pl-c1">false</span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Current User</h4><a id="user-content-get-current-user" class="anchor" aria-label="Permalink: Get Current User" href="#get-current-user"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/users/@me
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Display Name<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"avatar_url"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/avatar.png<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"bot"</span>: <span class="pl-c1">false</span>
+}</pre></div>
+<div class="markdown-heading"><h3 class="heading-element">Slash Commands</h3><a id="user-content-slash-commands" class="anchor" aria-label="Permalink: Slash Commands" href="#slash-commands"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">Register Global Commands</h4><a id="user-content-register-global-commands" class="anchor" aria-label="Permalink: Register Global Commands" href="#register-global-commands"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/applications/{application_id}/commands
+</code></pre>
+<p><strong>Method:</strong> PUT</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>ping<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"description"</span>: <span class="pl-s"><span class="pl-pds">"</span>Pong!<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">1</span>,
+    <span class="pl-ent">"options"</span>: []
+  }
+]</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>command_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"application_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>application_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>ping<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"description"</span>: <span class="pl-s"><span class="pl-pds">"</span>Pong!<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">1</span>,
+    <span class="pl-ent">"options"</span>: []
+  }
+]</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Register Guild Commands</h4><a id="user-content-register-guild-commands" class="anchor" aria-label="Permalink: Register Guild Commands" href="#register-guild-commands"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/applications/{application_id}/guilds/{guild_id}/commands
+</code></pre>
+<p><strong>Method:</strong> PUT</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>ping<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"description"</span>: <span class="pl-s"><span class="pl-pds">"</span>Pong!<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">1</span>,
+    <span class="pl-ent">"options"</span>: []
+  }
+]</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>command_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"application_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>application_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>ping<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"description"</span>: <span class="pl-s"><span class="pl-pds">"</span>Pong!<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">1</span>,
+    <span class="pl-ent">"options"</span>: []
+  }
+]</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">List Commands</h4><a id="user-content-list-commands" class="anchor" aria-label="Permalink: List Commands" href="#list-commands"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Global Endpoint:</strong></p>
+<pre><code>/applications/{application_id}/commands
+</code></pre>
+<p><strong>Guild Endpoint:</strong></p>
+<pre><code>/applications/{application_id}/guilds/{guild_id}/commands
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>command_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"application_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>application_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>ping<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"description"</span>: <span class="pl-s"><span class="pl-pds">"</span>Pong!<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">1</span>,
+    <span class="pl-ent">"options"</span>: []
+  }
+]</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Command</h4><a id="user-content-get-command" class="anchor" aria-label="Permalink: Get Command" href="#get-command"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Global Endpoint:</strong></p>
+<pre><code>/applications/{application_id}/commands/{command_id}
+</code></pre>
+<p><strong>Guild Endpoint:</strong></p>
+<pre><code>/applications/{application_id}/guilds/{guild_id}/commands/{command_id}
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>command_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"application_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>application_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>ping<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"description"</span>: <span class="pl-s"><span class="pl-pds">"</span>Pong!<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"type"</span>: <span class="pl-c1">1</span>,
+  <span class="pl-ent">"options"</span>: []
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Update Command</h4><a id="user-content-update-command" class="anchor" aria-label="Permalink: Update Command" href="#update-command"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Global Endpoint:</strong></p>
+<pre><code>/applications/{application_id}/commands/{command_id}
+</code></pre>
+<p><strong>Guild Endpoint:</strong></p>
+<pre><code>/applications/{application_id}/guilds/{guild_id}/commands/{command_id}
+</code></pre>
+<p><strong>Method:</strong> PATCH</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>updated_ping<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"description"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated Pong!<span class="pl-pds">"</span></span>
+}</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>command_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"application_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>application_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>updated_ping<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"description"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated Pong!<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"type"</span>: <span class="pl-c1">1</span>,
+  <span class="pl-ent">"options"</span>: []
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Delete Command</h4><a id="user-content-delete-command" class="anchor" aria-label="Permalink: Delete Command" href="#delete-command"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Global Endpoint:</strong></p>
+<pre><code>/applications/{application_id}/commands/{command_id}
+</code></pre>
+<p><strong>Guild Endpoint:</strong></p>
+<pre><code>/applications/{application_id}/guilds/{guild_id}/commands/{command_id}
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h3 class="heading-element">Webhooks</h3><a id="user-content-webhooks" class="anchor" aria-label="Permalink: Webhooks" href="#webhooks"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">Get Channel Webhooks</h4><a id="user-content-get-channel-webhooks" class="anchor" aria-label="Permalink: Get Channel Webhooks" href="#get-channel-webhooks"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/webhooks
+</code></pre>
+<p><strong>Method:</strong> GET</p>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>[
+  {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>webhook_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">1</span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"user"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>My Webhook<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"avatar"</span>: <span class="pl-c1">null</span>,
+    <span class="pl-ent">"token"</span>: <span class="pl-s"><span class="pl-pds">"</span>webhook_token<span class="pl-pds">"</span></span>
+  }
+]</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Create Webhook</h4><a id="user-content-create-webhook" class="anchor" aria-label="Permalink: Create Webhook" href="#create-webhook"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/guilds/{guild_id}/channels/{channel_id}/webhooks
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>My Webhook<span class="pl-pds">"</span></span>
+}</pre></div>
+<p><strong>Response (201 Created):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>webhook_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"type"</span>: <span class="pl-c1">1</span>,
+  <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"user"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_username<span class="pl-pds">"</span></span>
+  },
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>My Webhook<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"avatar"</span>: <span class="pl-c1">null</span>,
+  <span class="pl-ent">"token"</span>: <span class="pl-s"><span class="pl-pds">"</span>webhook_token<span class="pl-pds">"</span></span>
+}</pre></div>
+<div class="markdown-heading"><h3 class="heading-element">Interactions</h3><a id="user-content-interactions" class="anchor" aria-label="Permalink: Interactions" href="#interactions"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h4 class="heading-element">Create Interaction Response</h4><a id="user-content-create-interaction-response" class="anchor" aria-label="Permalink: Create Interaction Response" href="#create-interaction-response"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/interactions/{interaction_id}/{interaction_token}/callback
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"type"</span>: <span class="pl-c1">4</span>,
+  <span class="pl-ent">"data"</span>: {
+    <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Pong!<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Edit Interaction Response</h4><a id="user-content-edit-interaction-response" class="anchor" aria-label="Permalink: Edit Interaction Response" href="#edit-interaction-response"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/webhooks/{application_id}/{interaction_token}/messages/@original
+</code></pre>
+<p><strong>Method:</strong> PATCH</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated response<span class="pl-pds">"</span></span>
+}</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"author"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_username<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"bot"</span>: <span class="pl-c1">true</span>
+  },
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated response<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Delete Interaction Response</h4><a id="user-content-delete-interaction-response" class="anchor" aria-label="Permalink: Delete Interaction Response" href="#delete-interaction-response"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/webhooks/{application_id}/{interaction_token}/messages/@original
+</code></pre>
+<p><strong>Method:</strong> DELETE</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h4 class="heading-element">Create Followup Message</h4><a id="user-content-create-followup-message" class="anchor" aria-label="Permalink: Create Followup Message" href="#create-followup-message"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/webhooks/{application_id}/{interaction_token}
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Followup message<span class="pl-pds">"</span></span>
+}</pre></div>
+<p><strong>Response (200 OK):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"author"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_username<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"bot"</span>: <span class="pl-c1">true</span>
+  },
+  <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Followup message<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Create Thread from Message</h4><a id="user-content-create-thread-from-message" class="anchor" aria-label="Permalink: Create Thread from Message" href="#create-thread-from-message"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/channels/{channel_id}/messages/{message_id}/threads
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Discussion<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"auto_archive_duration"</span>: <span class="pl-c1">1440</span>
+}</pre></div>
+<p><strong>Response (201 Created):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>thread_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"type"</span>: <span class="pl-c1">11</span>,
+  <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Discussion<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"auto_archive_duration"</span>: <span class="pl-c1">1440</span>,
+  <span class="pl-ent">"created_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Create Thread</h4><a id="user-content-create-thread" class="anchor" aria-label="Permalink: Create Thread" href="#create-thread"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/channels/{channel_id}/threads
+</code></pre>
+<p><strong>Method:</strong> POST</p>
+<p><strong>Content-Type:</strong> application/json</p>
+<p><strong>Request Body:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>New Thread<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"type"</span>: <span class="pl-c1">11</span>,
+  <span class="pl-ent">"auto_archive_duration"</span>: <span class="pl-c1">1440</span>
+}</pre></div>
+<p><strong>Response (201 Created):</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>thread_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"type"</span>: <span class="pl-c1">11</span>,
+  <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>New Thread<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"auto_archive_duration"</span>: <span class="pl-c1">1440</span>,
+  <span class="pl-ent">"created_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Join/Leave Thread</h4><a id="user-content-joinleave-thread" class="anchor" aria-label="Permalink: Join/Leave Thread" href="#joinleave-thread"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/channels/{thread_id}/thread-members/@me
+</code></pre>
+<p><strong>Method:</strong> PUT (join)</p>
+<p><strong>Endpoint:</strong></p>
+<pre><code>/bot/channels/{thread_id}/thread-members/@me
+</code></pre>
+<p><strong>Method:</strong> DELETE (leave)</p>
+<p><strong>Response:</strong> 204 No Content</p>
+<div class="markdown-heading"><h2 class="heading-element">WebSocket Gateway</h2><a id="user-content-websocket-gateway" class="anchor" aria-label="Permalink: WebSocket Gateway" href="#websocket-gateway"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>The WebSocket gateway provides real-time events. Connect to <code>wss://gateway.jubbio.com</code> and send an identify payload with your bot token.</p>
+<div class="markdown-heading"><h3 class="heading-element">Connection</h3><a id="user-content-connection" class="anchor" aria-label="Permalink: Connection" href="#connection"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Send this payload after connecting:</p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"op"</span>: <span class="pl-c1">2</span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"token"</span>: <span class="pl-s"><span class="pl-pds">"</span>YOUR_BOT_TOKEN<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"intents"</span>: <span class="pl-c1">12345</span>,
+    <span class="pl-ent">"properties"</span>: {
+      <span class="pl-ent">"os"</span>: <span class="pl-s"><span class="pl-pds">"</span>your_os<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"browser"</span>: <span class="pl-s"><span class="pl-pds">"</span>your_app<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"device"</span>: <span class="pl-s"><span class="pl-pds">"</span>your_device<span class="pl-pds">"</span></span>
+    }
+  }
+}</pre></div>
+<div class="markdown-heading"><h3 class="heading-element">Gateway Intents</h3><a id="user-content-gateway-intents" class="anchor" aria-label="Permalink: Gateway Intents" href="#gateway-intents"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<ul>
+<li>
+<code>1 &lt;&lt; 0</code> (Guilds): Guild events</li>
+<li>
+<code>1 &lt;&lt; 1</code> (GuildMembers): Member events</li>
+<li>
+<code>1 &lt;&lt; 2</code> (GuildBans): Ban events</li>
+<li>
+<code>1 &lt;&lt; 3</code> (GuildEmojis): Emoji events</li>
+<li>
+<code>1 &lt;&lt; 4</code> (GuildIntegrations): Integration events</li>
+<li>
+<code>1 &lt;&lt; 5</code> (GuildWebhooks): Webhook events</li>
+<li>
+<code>1 &lt;&lt; 6</code> (GuildInvites): Invite events</li>
+<li>
+<code>1 &lt;&lt; 7</code> (GuildVoiceStates): Voice state events</li>
+<li>
+<code>1 &lt;&lt; 8</code> (GuildPresences): Presence events</li>
+<li>
+<code>1 &lt;&lt; 9</code> (GuildMessages): Message events</li>
+<li>
+<code>1 &lt;&lt; 10</code> (GuildMessageReactions): Reaction events</li>
+<li>
+<code>1 &lt;&lt; 11</code> (GuildMessageTyping): Typing events</li>
+<li>
+<code>1 &lt;&lt; 12</code> (DirectMessages): DM events</li>
+<li>
+<code>1 &lt;&lt; 13</code> (GuildScheduledEvents): Scheduled event events</li>
+<li>
+<code>1 &lt;&lt; 14</code> (AutoModerationConfiguration): Auto moderation config events</li>
+<li>
+<code>1 &lt;&lt; 15</code> (AutoModerationExecution): Auto moderation execution events</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Events</h3><a id="user-content-events" class="anchor" aria-label="Permalink: Events" href="#events"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Events are sent with op code 0. The event name is in <code>t</code>, data in <code>d</code>.</p>
+<div class="markdown-heading"><h4 class="heading-element">Ready</h4><a id="user-content-ready" class="anchor" aria-label="Permalink: Ready" href="#ready"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sent when the bot connects successfully.</p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>READY<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"v"</span>: <span class="pl-c1">10</span>,
+    <span class="pl-ent">"user"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>bot_username<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Bot Display Name<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"avatar_url"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/avatar.png<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"bot"</span>: <span class="pl-c1">true</span>
+    },
+    <span class="pl-ent">"guilds"</span>: [
+      {
+        <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+        <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Guild Name<span class="pl-pds">"</span></span>,
+        <span class="pl-ent">"unavailable"</span>: <span class="pl-c1">false</span>
+      }
+    ],
+    <span class="pl-ent">"session_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>session_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"application"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>application_id<span class="pl-pds">"</span></span>
+    }
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Message Create</h4><a id="user-content-message-create" class="anchor" aria-label="Permalink: Message Create" href="#message-create"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>MESSAGE_CREATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"author"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"display_name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Display Name<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"avatar_url"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/avatar.png<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"bot"</span>: <span class="pl-c1">false</span>
+    },
+    <span class="pl-ent">"user_id"</span>: <span class="pl-c1">123</span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Hello!<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"edited_timestamp"</span>: <span class="pl-c1">null</span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"attachments"</span>: [], <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"embeds"</span>: [] <span class="pl-ii">// optional</span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Interaction Create</h4><a id="user-content-interaction-create" class="anchor" aria-label="Permalink: Interaction Create" href="#interaction-create"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>INTERACTION_CREATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>interaction_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"application_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>application_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">2</span>,
+    <span class="pl-ent">"data"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>command_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>ping<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"type"</span>: <span class="pl-c1">1</span>,
+      <span class="pl-ent">"options"</span>: []
+    },
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"member"</span>: { <span class="pl-ii">// optional</span>
+      <span class="pl-ent">"user"</span>: {
+        <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+        <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>
+      },
+      <span class="pl-ent">"roles"</span>: [<span class="pl-s"><span class="pl-pds">"</span>role_id<span class="pl-pds">"</span></span>],
+      <span class="pl-ent">"joined_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-ent">"user"</span>: { <span class="pl-ii">// optional</span>
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-ent">"message"</span>: { <span class="pl-ii">// optional</span>
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Message content<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-ent">"token"</span>: <span class="pl-s"><span class="pl-pds">"</span>interaction_token<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"version"</span>: <span class="pl-c1">1</span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Guild Create</h4><a id="user-content-guild-create" class="anchor" aria-label="Permalink: Guild Create" href="#guild-create"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>GUILD_CREATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Guild Name<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"icon"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/icon.png<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"owner_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>owner_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"unavailable"</span>: <span class="pl-c1">false</span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Guild Update</h4><a id="user-content-guild-update" class="anchor" aria-label="Permalink: Guild Update" href="#guild-update"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>GUILD_UPDATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated Guild Name<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"icon"</span>: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/new_icon.png<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Guild Delete</h4><a id="user-content-guild-delete" class="anchor" aria-label="Permalink: Guild Delete" href="#guild-delete"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>GUILD_DELETE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"unavailable"</span>: <span class="pl-c1">true</span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Guild Member Add</h4><a id="user-content-guild-member-add" class="anchor" aria-label="Permalink: Guild Member Add" href="#guild-member-add"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>GUILD_MEMBER_ADD<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"user"</span>: { <span class="pl-ii">// optional</span>
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-ent">"nick"</span>: <span class="pl-c1">null</span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"avatar"</span>: <span class="pl-c1">null</span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"roles"</span>: [],
+    <span class="pl-ent">"joined_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"deaf"</span>: <span class="pl-c1">false</span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"mute"</span>: <span class="pl-c1">false</span> <span class="pl-ii">// optional</span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Guild Member Update</h4><a id="user-content-guild-member-update" class="anchor" aria-label="Permalink: Guild Member Update" href="#guild-member-update"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>GUILD_MEMBER_UPDATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"user"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-ent">"nick"</span>: <span class="pl-s"><span class="pl-pds">"</span>New Nickname<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"roles"</span>: [<span class="pl-s"><span class="pl-pds">"</span>new_role_id<span class="pl-pds">"</span></span>],
+    <span class="pl-ent">"joined_at"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Guild Member Remove</h4><a id="user-content-guild-member-remove" class="anchor" aria-label="Permalink: Guild Member Remove" href="#guild-member-remove"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>GUILD_MEMBER_REMOVE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"user"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>
+    }
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Channel Create</h4><a id="user-content-channel-create" class="anchor" aria-label="Permalink: Channel Create" href="#channel-create"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>CHANNEL_CREATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">0</span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>new-channel<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"topic"</span>: <span class="pl-c1">null</span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"position"</span>: <span class="pl-c1">1</span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"parent_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>category_id<span class="pl-pds">"</span></span> <span class="pl-ii">// optional</span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Channel Update</h4><a id="user-content-channel-update" class="anchor" aria-label="Permalink: Channel Update" href="#channel-update"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>CHANNEL_UPDATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">0</span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>updated-channel<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"topic"</span>: <span class="pl-s"><span class="pl-pds">"</span>New topic<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Channel Delete</h4><a id="user-content-channel-delete" class="anchor" aria-label="Permalink: Channel Delete" href="#channel-delete"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>CHANNEL_DELETE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"type"</span>: <span class="pl-c1">0</span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>deleted-channel<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Message Update</h4><a id="user-content-message-update" class="anchor" aria-label="Permalink: Message Update" href="#message-update"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>MESSAGE_UPDATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"author"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"username"</span>: <span class="pl-s"><span class="pl-pds">"</span>username<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-ent">"content"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated content<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"edited_timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:01:00.000Z<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Message Delete</h4><a id="user-content-message-delete" class="anchor" aria-label="Permalink: Message Delete" href="#message-delete"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>MESSAGE_DELETE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>message_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Message Delete Bulk</h4><a id="user-content-message-delete-bulk" class="anchor" aria-label="Permalink: Message Delete Bulk" href="#message-delete-bulk"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>MESSAGE_DELETE_BULK<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"ids"</span>: [<span class="pl-s"><span class="pl-pds">"</span>message_id_1<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>message_id_2<span class="pl-pds">"</span></span>],
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Role Create</h4><a id="user-content-role-create" class="anchor" aria-label="Permalink: Role Create" href="#role-create"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>GUILD_ROLE_CREATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"role"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>role_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>New Role<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"color"</span>: <span class="pl-c1">16711680</span>,
+      <span class="pl-ent">"position"</span>: <span class="pl-c1">1</span>,
+      <span class="pl-ent">"permissions"</span>: <span class="pl-s"><span class="pl-pds">"</span>8<span class="pl-pds">"</span></span>
+    }
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Role Update</h4><a id="user-content-role-update" class="anchor" aria-label="Permalink: Role Update" href="#role-update"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>GUILD_ROLE_UPDATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"role"</span>: {
+      <span class="pl-ent">"id"</span>: <span class="pl-s"><span class="pl-pds">"</span>role_id<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"name"</span>: <span class="pl-s"><span class="pl-pds">"</span>Updated Role<span class="pl-pds">"</span></span>,
+      <span class="pl-ent">"color"</span>: <span class="pl-c1">65280</span>,
+      <span class="pl-ent">"position"</span>: <span class="pl-c1">1</span>,
+      <span class="pl-ent">"permissions"</span>: <span class="pl-s"><span class="pl-pds">"</span>8<span class="pl-pds">"</span></span>
+    }
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Role Delete</h4><a id="user-content-role-delete" class="anchor" aria-label="Permalink: Role Delete" href="#role-delete"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>GUILD_ROLE_DELETE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"role_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>role_id<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Typing Start</h4><a id="user-content-typing-start" class="anchor" aria-label="Permalink: Typing Start" href="#typing-start"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>TYPING_START<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"user_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"timestamp"</span>: <span class="pl-s"><span class="pl-pds">"</span>2023-01-01T00:00:00.000Z<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Error</h4><a id="user-content-error" class="anchor" aria-label="Permalink: Error" href="#error"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>ERROR<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"message"</span>: <span class="pl-s"><span class="pl-pds">"</span>Error message<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"code"</span>: <span class="pl-c1">4004</span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Debug</h4><a id="user-content-debug" class="anchor" aria-label="Permalink: Debug" href="#debug"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>DEBUG<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"message"</span>: <span class="pl-s"><span class="pl-pds">"</span>Debug info<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<div class="markdown-heading"><h4 class="heading-element">Heartbeat</h4><a id="user-content-heartbeat" class="anchor" aria-label="Permalink: Heartbeat" href="#heartbeat"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Send heartbeat every 45 seconds:</p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"op"</span>: <span class="pl-c1">1</span>,
+  <span class="pl-ent">"d"</span>: <span class="pl-ii">last_sequence_number</span>
+}</pre></div>
+<div class="markdown-heading"><h2 class="heading-element">Voice API</h2><a id="user-content-voice-api" class="anchor" aria-label="Permalink: Voice API" href="#voice-api"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Jubbio uses LiveKit for voice functionality. Voice connections are managed through the WebSocket gateway.</p>
+<div class="markdown-heading"><h3 class="heading-element">Connecting to Voice</h3><a id="user-content-connecting-to-voice" class="anchor" aria-label="Permalink: Connecting to Voice" href="#connecting-to-voice"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>To connect to a voice channel:</p>
+<ol>
+<li>
+<strong>Send Voice State Update</strong>: Send a WebSocket message to update voice state (join/leave channel).</li>
+</ol>
+<p><strong>WebSocket Payload:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"op"</span>: <span class="pl-c1">4</span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// null to leave</span>
+    <span class="pl-ent">"self_mute"</span>: <span class="pl-c1">false</span>,
+    <span class="pl-ent">"self_deaf"</span>: <span class="pl-c1">false</span>
+  }
+}</pre></div>
+<ol start="2">
+<li>
+<strong>Receive Voice Server Update</strong>: The gateway sends voice server connection information.</li>
+</ol>
+<p><strong>WebSocket Event:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>VOICE_SERVER_UPDATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"token"</span>: <span class="pl-s"><span class="pl-pds">"</span>voice_token<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"endpoint"</span>: <span class="pl-s"><span class="pl-pds">"</span>voice.livekit.jubbio.com<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"room"</span>: <span class="pl-s"><span class="pl-pds">"</span>room_name<span class="pl-pds">"</span></span>
+  }
+}</pre></div>
+<ol start="3">
+<li>
+<strong>Connect to LiveKit</strong>: Use the provided token, endpoint, and room to connect to LiveKit for voice data transmission.</li>
+</ol>
+<div class="markdown-heading"><h3 class="heading-element">Voice State Update Event</h3><a id="user-content-voice-state-update-event" class="anchor" aria-label="Permalink: Voice State Update Event" href="#voice-state-update-event"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Sent when voice state changes (join, leave, mute, deaf).</p>
+<p><strong>WebSocket Event:</strong></p>
+<div class="highlight highlight-source-json"><pre>{
+  <span class="pl-ent">"t"</span>: <span class="pl-s"><span class="pl-pds">"</span>VOICE_STATE_UPDATE<span class="pl-pds">"</span></span>,
+  <span class="pl-ent">"d"</span>: {
+    <span class="pl-ent">"guild_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>guild_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"channel_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>channel_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"user_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>user_id<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"session_id"</span>: <span class="pl-s"><span class="pl-pds">"</span>session_id<span class="pl-pds">"</span></span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"self_mute"</span>: <span class="pl-c1">false</span>,
+    <span class="pl-ent">"self_deaf"</span>: <span class="pl-c1">false</span>,
+    <span class="pl-ent">"mute"</span>: <span class="pl-c1">false</span>, <span class="pl-ii">// optional</span>
+    <span class="pl-ent">"deaf"</span>: <span class="pl-c1">false</span> <span class="pl-ii">// optional</span>
+  }
+}</pre></div>
+</article></body></html>
