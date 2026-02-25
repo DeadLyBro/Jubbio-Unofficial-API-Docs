@@ -404,18 +404,6 @@ The REST API allows you to interact with guilds, channels, messages, users, and 
 ]
 ```
 
-#### Delete Message
-
-**Endpoint:**
-
-```
-/bot/guilds/{guild_id}/channels/{channel_id}/messages/{message_id}
-```
-
-**Method:** DELETE
-
-**Response:** 204 No Content
-
 #### Add Reaction
 
 **Endpoint:**
