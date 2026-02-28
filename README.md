@@ -28,7 +28,7 @@ https://gateway.jubbio.com/api/v1
 
 The WebSocket gateway URL is; 
 ```
-wss://gateway.jubbio.com
+wss://realtime.jubbio.com
 ```
 
 ## REST API
@@ -1640,7 +1640,7 @@ The REST API allows you to interact with guilds, channels, messages, users, and 
 
 ## WebSocket Gateway
 
-The WebSocket gateway provides real-time events. Connect to `wss://gateway.jubbio.com` and send an identify payload with your bot token.
+The WebSocket gateway provides real-time events. Connect to `wss://realtime.jubbio.com` and send an identify payload with your bot token.
 
 ### Connection
 
